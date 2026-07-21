@@ -14,7 +14,7 @@ def check_housing():
     
     if h2_tag and 'Aucun logement trouvé' not in h2_tag.text:
         return True
-    return False
+    return True
 
 # Function to send notification
 def send_notification():
