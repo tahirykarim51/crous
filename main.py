@@ -43,7 +43,7 @@ def main():
                     already_notified = True
             else:
                 already_notified = False
-            time.sleep(60)
+            time.sleep(5)
         except Exception as e:
             print(f"❌ Error: {e}")
             time.sleep(5)
